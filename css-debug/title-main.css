@@ -1,0 +1,48 @@
+:root {
+    --main-bg-color: black;}
+/* Normalizando */
+*::before, *::after{
+	box-sizing: border-box;
+	font-family: arial, times, georgia;
+	font-size: 1.2rem;
+	line-height: 1.6rem
+}
+@font-face {
+	font-family: "LHANDW";
+	src: url("../estilo/LHANDW.TTF");
+  }
+body{margin: 0;
+
+}
+/* 
+bloque grande es clase title
+katsudogo es clase titulo
+bloque de imagen es clase ing
+imagen es clase img
+*/
+h1{
+	/* writing-mode: vertical-lr;
+	transform: rotate(-45deg); */
+	color: #b000c0;
+	text-align: center;
+	justify-content: center;
+	font-family: LHANDW;
+	
+}
+.title{
+	padding: auto;
+	margin: auto;
+	color: black;
+	
+
+}
+/* .ing{
+	 display: inline-block; 
+} */
+.img{
+	display: block;
+	font-size: 500%;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}

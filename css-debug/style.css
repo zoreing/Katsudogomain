@@ -1,0 +1,63 @@
+:root {
+    --main-bg-color: black;}
+/* Normalizando */
+*::before, *::after{
+	box-sizing: border-box;
+	font-family: arial, times, georgia;
+	font-size: 1.2rem;
+	line-height: 1.6rem
+}
+body{margin: 0;}
+a{
+    text-decoration: inherit;
+    color: inherit;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+/* fin del normalizando */
+/* las clases son 
+menu para el bloque grande
+submenu para el bloque mediano de ul
+item para los li
+botton para los a
+*/
+.supercontenedor{
+    width: 100%;
+    max-width: 1440px;
+}
+.menu{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    
+}
+.submenu{
+    background-color:     #7c500e;
+    padding: auto;
+    margin: 0%;
+    -webkit-box-shadow: 0px 7px 2px 2px rgba(122,84,27,1);
+    -moz-box-shadow: 0px 7px 2px 2px rgba(122,84,27,1);
+    box-shadow: 0px 7px 2px 2px rgba(122,84,27,1);
+}
+.item{
+    display: inline-block;
+    /* background-color: coral; */
+}
+    .botton{
+        display: block;
+        font-size: 30px;
+        margin-right: 17px;
+        /* background-color: green; */
+        margin-top: 4%;
+        
+        margin-bottom: 3.5%;
+        margin-left: 0%;
+        padding: 0.0015%;
+        border-radius: 47.5%;
+    }
+    .botton:hover{
+        background-color: #da8d1b;
+        transition-duration: 700ms;
+    }

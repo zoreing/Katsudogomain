@@ -1,0 +1,31 @@
+ *::before, *::after{
+	box-sizing: border-box;
+	font-family: arial, times, georgia;
+	font-size: 1.2rem;
+	line-height: 1.6rem
+}
+@font-face {
+  font-family: "LHANDW";
+  src: url("../estilo/LHANDW.TTF");
+}
+a{
+	color: inherit;
+}
+p{
+	color: white;
+	margin-bottom: 1.6em;
+	margin-left: -20em;
+	font-size: 30px;
+	text-align: center;
+}
+h1{
+	color: #00a7bf;
+	text-align:center;
+	font-size: 150px;
+	font-family: LHANDW;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}

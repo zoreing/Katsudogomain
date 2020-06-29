@@ -1,0 +1,42 @@
+/* Normalizando */
+*::before, *::after{
+	box-sizing: border-box;
+	font-family: arial, times, georgia;
+	font-size: 1.2rem;
+	line-height: 1.6rem
+}
+/* body{
+     background-color: tomato; 
+} */
+/* corp cuerpo about-me */
+.about-me{
+    /* background-color: yellowgreen; */
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 3em;
+}
+.cuerpo{
+    /* background-color: violet; */
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.flot{
+    display: inline-block;
+}
+.ary{
+    justify-content: center;
+    width: 22.5%;
+    height: auto;
+    margin-left: 2%;
+}
+.artdig{
+    /* background-color: black; */
+    width: 95%;
+    padding: auto;
+    margin: auto;
+}
