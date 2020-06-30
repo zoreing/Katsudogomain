@@ -1,7 +1,7 @@
     const imguno = document.getElementById('imguno')
 
 
-    const boton1 = document.getElementById('fuck')
+    const boton1 = document.getElementById('draws')
  
  
  
