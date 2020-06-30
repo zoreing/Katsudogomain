@@ -37,9 +37,9 @@ h1{
 	
 
 }
-/* .ing{
-	 display: inline-block; 
-} */
+.ing{
+	 	overflow-wrap: break-word;
+} 
 .img{
 	display: block;
 	font-size: 500%;

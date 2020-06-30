@@ -61,3 +61,27 @@ botton para los a
         background-color: #da8d1b;
         transition-duration: 700ms;
     }
+    .automaton{
+        height: auto;
+        width: 50px;
+      
+        
+
+    }
+    .automaton:hover{
+        transition-duration: 700ms  ;
+        background-color: green;
+        border-radius: 50%;
+        
+    }
+    .menu-inf{
+        background-color: greenyellow;
+        padding: auto;
+        text-align: right;
+     
+        
+    }
+    
+    .ufas{
+        padding-top: 25%;
+    }
