@@ -6,27 +6,31 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css-debug/about-me.css">
+    
 </head>
 <body>
-    
-    <aside class="artdig">
+    <DIALOG id="imguno" class="muestraimagen">
+                <img class="imagengrande" id="eli" src="#" width="auto" height="auto"/>
+    </DIALOG>
+    <div id="fuck">
+    <aside class="artdig" >
         <div class="flot">
-            <img src="./img/digit/icon/uno.png"  class="ary">
-            <img src="./img/digit/icon/dos.jpg"  class="ary">
-            <img src="./img/digit/icon/tres.png"  class="ary">
-            <img src="./img/digit/icon/cuatro.png"  class="ary">
+            <img id="1" src="./img/digit/icon/uno.png"  class="ary" onmouseover="cambia(1)">
+            <img id="2" src="./img/digit/icon/dos.jpg"  class="ary" onmouseover="cambia(2)">
+            <img id="3" src="./img/digit/icon/tres.png"  class="ary" onmouseover="cambia(3)">
+            <img id="4" src="./img/digit/icon/cuatro.png"  class="ary" onmouseover="cambia(4)">
         </div>
     </aside>
 
     <aside class="artdig">
         <div class="flot">
-            <img src="./img/digit/ref/uno.jpg"  class="ary">
-            <img src="./img/digit/ref/dos.jpg"  class="ary">
-            <img src="./img/digit/ref/tres.jpg"  class="ary">
-            <img src="./img/digit/ref/cuatro.jpg"  class="ary">
+            <img id="5" src="./img/digit/ref/uno.jpg"  class="ary" onmouseover="cambia(5)">
+            <img id="6" src="./img/digit/ref/dos.jpg"  class="ary" onmouseover="cambia(6)">
+            <img id="7" src="./img/digit/ref/tres.jpg"  class="ary"  onmouseover="cambia(7)"> 
+            <img id="8" src="./img/digit/ref/cuatro.jpg"  class="ary" onmouseover="cambia(8)">
         </div>
     </aside>
-    
+    </div>
     
 <!----------------------------------------------------------------------------------------------------------->
 <aside class="artdig">
@@ -47,5 +51,8 @@
     </div>
 </aside>
 
+
+
+<script src="./scripts/script.js"></script>
 </body>
 </html>

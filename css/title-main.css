@@ -19,10 +19,12 @@ p{
 	text-align: center;
 }
 h1{
+	margin: 90%;
 	color: #00a7bf;
 	text-align:center;
 	font-size: 150px;
 	font-family: LHANDW;
+	overflow-wrap: break-word;
 }
 h2{
 	color: white;
